@@ -1,5 +1,5 @@
-#Version:0.0.1
-FROM tensorflow/tensorflow
+#Version:0.0.2
+FROM laojun/tf-client:develop
 MAINTAINER laojun "xqccf@foxmail.com"
 
 #安装 vim 
