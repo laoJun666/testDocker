@@ -5,3 +5,5 @@
 
 #python
 ENV_PYTHON/*
+__pycache__
+*/__pycache__
