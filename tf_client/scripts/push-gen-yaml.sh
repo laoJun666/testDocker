@@ -2,15 +2,22 @@
 IMAGENAME="laojun/test:develop01"
 DOCKERSERVER="192.168.1.201:5000"
 
-if $KD_TEST_IMAGENAME
-then
-IMAGENAME = $KD_TEST_IMAGENAME
+file_path='current_imageName.txt'
+
+if [ ! -f $file_path ];then
+echo "配置文件不存在"
+echo "使用默认镜像名称 <$IMAGENAME>"
+else
+image_name=`cat $file_path`
+IMAGENAME=$image_name
+echo "使用 配置项 镜像名 <$IMAGENAME>"
 fi
+
 
 id=`docker images ${IMAGENAME} -q`
 echo $id
 docker tag $id ${DOCKERSERVER}/${IMAGENAME}
- 
+
 docker push ${DOCKERSERVER}/${IMAGENAME}
 echo "镜像更新成功"
 
