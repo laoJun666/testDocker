@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef2f8318-1235-4d18-8ca5-f86581eb92e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tf_client/mnistTest/mnist_replica.py" beforeDir="false" afterPath="$PROJECT_DIR$/tf_client/mnistTest/mnist_replica.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_client/scripts/dockerfile-test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_client/scripts/dockerfile-test.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_client/scripts/push-gen-yaml.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tf_client/scripts/push-gen-yaml.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tf_client/tf-k8s-with-lb.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tf_client/tf-k8s-with-lb.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="ef2f8318-1235-4d18-8ca5-f86581eb92e9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
