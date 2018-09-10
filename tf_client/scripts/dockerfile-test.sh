@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCKERFILE="./Dockerfile"
-IMAGENAME="laojun/test:develop05"
+IMAGENAME="laojun/test:develop06"
 config_file_path='current_imageName.txt'
 current_path=`dirname $0`
 #

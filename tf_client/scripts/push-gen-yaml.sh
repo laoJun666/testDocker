@@ -22,8 +22,8 @@ docker push ${DOCKERSERVER}/${IMAGENAME}
 echo "镜像更新成功"
 
 python ./scripts/k8s_tensorflow.py \
-    --num_workers 2 \
-    --num_parameter_servers 1 \
+    --num_workers 6 \
+    --num_parameter_servers  2\
     --grpc_port 2222 \
     --request_load_balancer true \
     --docker_image ${DOCKERSERVER}/${IMAGENAME} \
